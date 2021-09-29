@@ -30,6 +30,12 @@ body > header {
 
 header .logo-search form  {
     width: 50%;
+    
+}
+
+.logo-search
+{
+    margin-left: 1%;
 }
 
 header .user {
@@ -136,11 +142,12 @@ input.search {
     background: url("../img/icon/search.png") #ebeff1 no-repeat 8px;
     box-shadow: none;
     height: 28px;
-    width: 100%;
+    width: 30%;
     font-size: 13px;
     padding: 3px 6px 3px 25px;
     border: 1px solid #d0dde9;
     margin: 0;
+    margin-left: 5%;
     border-radius: 15px;
     top: 11px;
     box-shadow: inset 1px 1px 5px #d5d5d5;
@@ -217,5 +224,94 @@ nav a.collection { background: url("../img/icon/collection.png") no-repeat 0px; 
 nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
 
 
+header
+{
+    justify-content: center;
+    
+}
+
+.sansheader
+{
+    display: flex;
+}
+
+aside
+{
+    width: 20%;
+}
+
+.wrapper
+{
+    align-items: center;
+    display: flex;
+}
+
+.sansheader aside
+{
+    text-justify: center;
+}
+
+.stats-links
+{
+    display:flex;
+    justify-content: space-between;
+}
+
+.links 
+{
+    margin-right: 2%;
+
+}
+
+.browse
+{   display: flex;
+    padding-left: 10%;
+}
+
+.music
+{
+    display: flex;
+    padding-left:  10%;
+}
+
+.sansheader h3
+{
+    display: flex;
+    justify-content: center;
+}
+
+.top
+{
+    display: flex;
+    justify-content: space-between  ;
+}
+
+.sta
+{
+    margin-right: 2%;
+}
+
+#albums
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 600px){
+    
+    aside{
+        display: none;
+    }
+    
+    .search{
+        display: none;
+    }
+
+    main{
+        margin-left: 2px;
+    }
 
 
+
+}
